@@ -3,30 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Project Website</h1>
-    <p>This website documents my project progress. Explore updates, designs, and media to follow along with my journey!</p>
+    <header>
+        <h1>Welcome to My Homepage</h1>
+    </header>
 
-    <h2>Updates</h2>
-    <ul id="updates">
-        <li>Week 1: Initial setup completed!</li>
-    </ul>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <h2>Project Media</h2>
-    <h3>Image Example</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevPF9corvE4C7T5gEG1w09Ske_YrxCkHE2g&s" alt="Project Diagram" width="300">
+    <main>
+        <h2>Hello, World!</h2>
+        <p>This is a simple homepage created using HTML and CSS.</p>
 
-    </video>
-
-    <h3>Embedded YouTube Video</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=D7L1SmjQ3fo" 
-            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <!-- Image and Video Container -->
+        <div class="media-container">
+            <img src="https://png.pngtree.com/png-clipart/20230510/original/pngtree-black-and-white-welcome-text-png-image_9155958.png" alt="Welcome text" class="welcome-image">
+            <iframe 
+                class="video-frame"
+                src="https://www.youtube.com/embed/3v0J0Em02FM" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </main>
 
     <footer>
-        <p>Created by Deepakkumar SAMPATH KUMAR | Hosted on <a href="https://github.com/">GitHub Pages</a></p>
+        <p>&copy; 2025 Deepakkumar. All rights reserved.</p>
     </footer>
 </body>
 </html>
