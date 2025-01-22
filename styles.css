@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #212529;
 }
 
 /* Header Section */
@@ -69,4 +70,46 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+/* Lab Section */
+.main-heading {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Media Layout for LED Code and Video */
+.media-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.led-code, .led-video {
+    flex: 1;
+    padding: 10px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Resize LED Blink Video */
+.led-video video {
+    max-width: 80%; /* Adjusted size, make it smaller */
+    height: auto;
 }
