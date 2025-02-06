@@ -255,3 +255,43 @@ footer {
 .section a:hover {
     text-decoration: underline;
 }
+/* Ensures the main heading is centered with full width */
+.main-heading-two {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Aligns sub-heading to the right */
+.sub-heading {
+    text-align: center;
+    font-size: 20px;
+    color: #007bff; /* Blue text */
+    margin-right: 20px;
+}
+
+/* Ensures equal spacing for left and right sections */
+.lab-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Left and Right alignment */
+.left-align, .right-align {
+    width: 48%;
+}
+
+/* Style adjustments for better readability */
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
