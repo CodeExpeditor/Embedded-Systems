@@ -155,6 +155,84 @@ main {
 .right-align {
     text-align: right;
 }
+/* Lab #3 Styling */
+.lab-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 48%;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-align {
+    text-align: left;
+    width: 48%;
+}
+
+.right-align {
+    text-align: right;
+    width: 48%;
+}
+
+.full-width-video {
+    width: 100%;
+    max-width: 800px;
+}
+
+.center-content-align {
+    text-align: center;
+}
 
 /* Footer */
 footer {
