@@ -295,3 +295,84 @@ h3 {
     font-weight: bold;
     color: #007bff;
 }
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .lab-content-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .lab-content-center .section {
+    width: auto;
+    max-width: 80%;
+  }
+  
+  .lab-content-center .section img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #212529;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main Section */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Center Container */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lab-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    text-align: center;
+}
+
+/* Sub-Heading */
+.sub-heading {
+    font-size: 22px;
+    color: #007bff;
+}
+
+/* Video Styling */
+.large-video {
+    width: 800px; /* Adjust width for better visibility */
+    height: 450px; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure responsiveness */
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
