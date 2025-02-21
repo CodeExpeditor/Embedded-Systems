@@ -74,7 +74,7 @@ main {
 .sub-heading {
     font-size: 22px;
     margin-top: 20px;
-    color:#007bff;
+    color: #007bff;
     text-align: center;
 }
 
@@ -150,11 +150,14 @@ main {
 /* Left and right align */
 .left-align {
     text-align: left;
+    width: 48%; /* Added width */
 }
 
 .right-align {
     text-align: right;
+    width: 48%; /* Added width */
 }
+
 /* Lab #3 Styling */
 .lab-content {
     display: flex;
@@ -208,6 +211,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 .content-row {
     display: flex;
     justify-content: space-between;
@@ -255,6 +259,7 @@ footer {
 .section a:hover {
     text-decoration: underline;
 }
+
 /* Ensures the main heading is centered with full width */
 .main-heading-two {
     background-color: #007bff; /* Blue background */
@@ -295,29 +300,31 @@ h3 {
     font-weight: bold;
     color: #007bff;
 }
+
 .center-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-  }
-  
-  .lab-content-center {
+}
+
+.lab-content-center {
     display: flex;
     justify-content: center;
     width: 100%;
-  }
-  
-  .lab-content-center .section {
+}
+
+.lab-content-center .section {
     width: auto;
     max-width: 80%;
-  }
-  
-  .lab-content-center .section img {
+}
+
+.lab-content-center .section img {
     max-width: 100%;
     height: auto;
-  }
-  /* General Reset */
+}
+
+/* General Reset */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
