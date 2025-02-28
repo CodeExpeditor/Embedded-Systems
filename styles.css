@@ -376,6 +376,18 @@ main {
     max-width: 100%; /* Ensure responsiveness */
 }
 
+.sub-heading.center {
+    font-size: 26px;           /* Increased to 26px for a more noticeable change */
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 0;
+    width: 100%;
+    display: block;
+}
+.center-content {
+    text-align: center;
+}
 /* Footer */
 footer {
     background-color: #007bff;
